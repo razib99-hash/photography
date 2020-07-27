@@ -1,0 +1,639 @@
+/*================
+common-css
+================
+*/
+.form-top h6,
+.my-button a,
+.six-top h5,
+.content h5,
+.razib-one h4{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
+
+.common{
+	position: absolute;
+	background: rgba(174,169,159,.5);
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;	
+}
+
+.common-one{
+	position: absolute;
+	background: rgba(174,169,159,.5);
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;	
+}
+.common-two{
+	position: absolute;
+	bottom: 30px;
+	left: 35px;
+	color: #fff;
+}
+.copple{
+	position: relative;	
+
+}
+
+/*================
+section-one
+================
+*/
+
+@media (max-width:768px ) {
+	.section-one{
+		display: none;
+	}
+}
+
+.section-one{
+	background: #000;
+	border-top: 8px solid #fff;
+	position: relative;
+}
+
+
+.top{
+	position: absolute;
+	top: 0;
+	left: 33%;
+	z-index: 5;
+}
+
+
+.menu{
+
+	display: flex;
+	justify-content: space-between;
+	background: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	
+}
+
+.menu-left ul,
+.menu-right ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-left ul li,
+.menu-right ul li{
+	list-style: none;
+	
+}
+
+.menu-left ul li{
+	padding-right: 30px;
+	padding-left: 20px;
+}
+
+.menu-right ul li{
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+
+.menu-right ul li a,
+.menu-left ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.our-button{
+	padding: 0 40px;
+	border: 3px solid #fff;
+	text-transform: uppercase;
+}
+
+/*================
+section-oneb
+================
+*/
+
+
+.section-oneb{
+	background: #000;
+}
+
+@media (min-width:768px ) {
+	.section-oneb{
+		display: none;
+	}
+}
+
+.logo{
+	text-align: center;
+}
+
+.menu-two{
+
+}
+
+.menu-two ul,.menu-one ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+.menu-two ul li,
+.menu-one ul li{
+	list-style: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.menu-two ul li a,
+.menu-one ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/*================
+section-two
+================
+*/
+
+@media (max-width:576px ) {
+	.razib-image p{
+		font-size: 25px;
+		
+	}
+}
+
+@media (min-width:576px ) {
+	.razib-image p{
+		font-size: 38px;
+		
+	}
+}
+
+
+@media (min-width:992px ) {
+	.razib-image p{
+		font-size: 53px;
+
+	}
+}
+
+.slide-image img{
+	width: 100%;
+	height: 100%;
+	
+}
+.razib{
+	position: relative;
+}
+
+.razib-image {
+    position: absolute;
+    bottom: 23%;
+    left: 11%;
+    top: 26%;
+    right: 11%;
+}
+.razib-image img{
+	width: 100%;
+}
+
+.left{
+	position: absolute;
+	top: 40%;
+}
+
+.right{
+	position: absolute;
+	top: 40%;
+	right: 0;
+}
+
+.section-two{
+	position: relative;
+}
+
+.click-slide{
+	background: red;
+}
+
+.one{
+	position: absolute;
+	background: rgba(174,169,159,.3);
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;	
+}
+
+.one p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: #e4e4e6;
+	text-transform: uppercase;
+
+}	
+
+/*================
+section
+================
+*/
+.three{
+	padding-bottom: 25px;
+}
+.section{
+	background: #000;
+	color: #fff;
+}
+@media (min-width:776px ) {
+	.section{
+		display: none;
+
+		
+	}
+}
+
+/*================
+section-three
+================
+*/
+@media (max-width:776px ) {
+	.section-three{
+		display: none;
+		
+	}
+}
+
+.section-three{
+	background: #000;
+	color: #fff;
+}
+
+.razib-main{
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+.razib-one {
+	position: relative;
+	
+
+}
+.razib-border{
+	position: absolute;
+	height: 55px;
+	width: 3px;
+	background: #e4e4e6;
+	right: -75px;
+}
+
+.razib-one p{
+	display: inline;
+	padding-right: 14px;
+
+}
+.razib-three{
+	padding-left: 125px;
+	padding-right: 40px;
+}
+
+/*================
+section-four
+================
+*/
+
+.section-four {
+	margin-bottom: 80px;
+}
+
+.section-four img{
+	width: 100%;
+}
+
+.any{
+	justify-content: flex-end;
+	display: flex;
+}
+
+.three-image{
+	margin-bottom: 18px;
+}
+
+
+.content h5{
+	text-transform: uppercase;
+}
+
+.content{
+	text-align: center;
+	padding-top: 60px;
+}
+
+/*================
+section-five
+================
+*/
+.section-five{
+	background: url(../image/man.jpg);
+	color: #fff;
+	width: 100%;
+	background-size: cover;
+	
+}
+.five-main{
+	padding-top: 50px;
+}
+.five-one{
+	padding-bottom: 50px;
+	
+
+}
+.five-one h4{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.five-one h4,{
+	padding-bottom: 20px;
+}
+
+.btn {
+    color: #fff;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 30px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.btn:hover{
+	background: #fff;
+	color: #000;
+	border-radius: 30px;
+	border: 2px solid#B03AC5;
+}
+
+/*================
+section-six
+================
+*/
+.section-six img{
+	width: 100%;
+}
+
+.six-top{
+	text-align: center;
+	padding-top: 55px;
+}
+
+.six-top h5{
+	text-transform: uppercase;
+}
+
+.six-image{
+	padding-bottom: 40px;
+	position: relative;
+}
+.right-one {
+    position: absolute;
+    right: 16px;
+    height: 50px;
+    width: 2px;
+    background: #fff;
+    top: 10px;
+}
+.right-two {
+    position: absolute;
+    right: 15px;
+    height: 50px;
+    width: 2px;
+    background: #fff;
+    bottom: 47px;
+}
+
+.bottom-right{
+	position: absolute;
+    right: 16px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    bottom: 47px;
+}
+
+.bottom-left{
+	position: absolute;
+    left: 10px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    bottom: 47px;
+}
+.left-one{
+	position: absolute;
+    left: 10px;
+    height: 50px;
+    width: 2px;
+    background: #fff;
+    bottom: 47px;
+}
+
+.left-two{
+	position: absolute;
+    left: 10px;
+    height: 50px;
+    width: 2px;
+    background: #fff;
+    top: 10px;
+}
+
+.top-one{
+	position: absolute;
+    left: 10px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    top: 10px;
+}
+
+.top-two{
+	position: absolute;
+    right: 16px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    top: 10px;
+}
+
+/*================
+section-button
+================
+*/
+.my-button{
+	padding-top: 5px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.my-button a{
+	color: #000;
+	text-decoration: none;
+	padding: 15px 50px;
+	border: 2px solid#000;
+}
+
+
+
+/*================
+section-eight
+================
+*/
+.section-eight{
+	padding-bottom: 35px;
+	position: relative;
+	color: #fff;
+	background: url(../image/cover.jpg);
+}
+.eihgt{
+	position: absolute;
+	background: rgba(8,8,8,.8);
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;	
+}
+
+.eight-left,
+.eight-right{
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.eight-right .btn{
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.eight-right .btn:hover{
+	background: #fff;
+	color: #000;
+	border-radius: 30px;
+}
+
+
+/*================
+section-nine
+================
+*/
+.section-nine{
+	padding-top: 30px;
+}
+
+.nine-right ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: space-between;
+}
+
+.nine-right ul li{
+	list-style: none;
+}
+
+.nine-right ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+.nine-right ul li.my a{
+	border-right: 2px solid#000;
+	padding-right: 15px;
+}
+
+/*================
+section-saven
+================
+*/
+
+.g-map{
+	width: 100%;
+	overflow: scroll;
+	padding-bottom: 65px;
+}
+
+.form-top h6{
+	text-transform: uppercase;
+	padding-top: 45px;
+
+}
+.form-top p{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	padding-bottom: 35px;
+}
+
+.select-icon{
+	position: relative;
+}
+
+.select-icon:after {
+    content: "\f146"; 
+    position: absolute;
+    right: 19px;
+    top: 2px;
+    font-family:"font awesome 5 free";
+    color: #000;
+    font-size: 25px;
+    pointer-events: none;
+}
+
+.select-icon .form-control{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+}
+.button {
+	padding-bottom: 65px;
+}
+
+.button a{
+	padding:15px 40px;
+	border: 2px solid#000;
+	color: #000;
+}
+
+@media (max-width:776px ) {
+	.button a{
+		padding:15px 10px;
+		
+	}
+}
+
+
+
+@media (min-width:776px ) {
+	.button a{
+		padding:15px 0px;
+		
+	}
+}
+
+@media (min-width:992px ) {
+	.button a{
+		padding:15px 40px;
+		
+	}
+}
+
